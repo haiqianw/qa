@@ -3,8 +3,6 @@
 1. En/Cn
 2. Markdown
 
-
-
 ## Navi
 
 1. Home
@@ -15,8 +13,6 @@
 6. Documents
 7. About
 8. Contact
-
-
 
 ## VQA, IQA, PCQA
 
