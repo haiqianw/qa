@@ -5,7 +5,7 @@ header:
       zh-Hans : &ZH_HANS  主页
       zh      : *ZH_HANS  
       # @end locale config
-    url: /homepage.html
+    url: /pages/homepage.html
 
   - titles:
       # @start locale config
@@ -13,31 +13,39 @@ header:
       zh-Hans : &ZH_HANS  新闻
       zh      : *ZH_HANS  
       # @end locale config
-    url: /news.html
+    url: /pages/news.html
 
   - titles:
       # @start locale config
-      en      : &EN       VQA
-      zh-Hans : &ZH_HANS  VQA
+      en      : &EN       QA
+      zh-Hans : &ZH_HANS  质量评价
       zh      : *ZH_HANS  
       # @end locale config
-    url: /vqa.html
+    url: /pages/qa.html
 
-  - titles:
-      # @start locale config
-      en      : &EN       PCQA
-      zh-Hans : &ZH_HANS  PCQA
-      zh      : *ZH_HANS  
-      # @end locale config
-    url: /pcqa.html
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       VQA
+  #     zh-Hans : &ZH_HANS  VQA
+  #     zh      : *ZH_HANS  
+  #     # @end locale config
+  #   url: /pages/vqa.html
 
-  - titles:
-      # @start locale config
-      en      : &EN       IQA
-      zh-Hans : &ZH_HANS  IQA
-      zh      : *ZH_HANS  
-      # @end locale config
-    url: /iqa.html
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       PCQA
+  #     zh-Hans : &ZH_HANS  PCQA
+  #     zh      : *ZH_HANS  
+  #     # @end locale config
+  #   url: /pages/pcqa.html
+
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       IQA
+  #     zh-Hans : &ZH_HANS  IQA
+  #     zh      : *ZH_HANS  
+  #     # @end locale config
+  #   url: /pages/iqa.html
 
   - titles:
       # @start locale config
@@ -45,7 +53,7 @@ header:
       zh-Hans : &ZH_HANS  新闻
       zh      : *ZH_HANS  
       # @end locale config
-    url: /news.html
+    url: /pages/news.html
     
   - titles:
       # @start locale config
@@ -53,7 +61,15 @@ header:
       zh-Hans : &ZH_HANS  文档
       zh      : *ZH_HANS  
       # @end locale config
-    url: /docs.html
+    url: /pages/docs.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      zh-Hans : &ZH_HANS  关于
+      zh      : *ZH_HANS  
+      # @end locale config
+    url: /pages/about.html
 
   - titles:
       # @start locale config
@@ -61,7 +77,7 @@ header:
       zh-Hans : &ZH_HANS  联系
       zh      : *ZH_HANS  
       # @end locale config
-    url: /contact.html
+    url: /pages/contact.html
 
   - titles:
       # @start locale config
@@ -69,4 +85,4 @@ header:
       zh-Hans : &ZH_HANS  中文
       zh      : *ZH_HANS  
       # @end locale config
-    url: /homepage.html
+    url: /pages/homepage.html
