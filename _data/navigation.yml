@@ -1,88 +1,103 @@
 header:
-  - titles:
-      # @start locale config
-      en      : &EN       Home
-      zh-Hans : &ZH_HANS  主页
-      zh      : *ZH_HANS  
-      # @end locale config
-    url: /pages/homepage.html
+  - title: 主页
+    key: home
+    url: /
+  - title: 质量评价
+    key: qa-cn
+    url: /qa_pages/cn/vqa_datasets/
+  - title: 新闻
+    key: news
+    url: /cn/news/
+  - title: 文档
+    key: docs
+    url: /docs/cn/tbd/ 
+  - title: 关于
+    key: about
+    url: /cn/about/
+  - title: 联系
+    key: contact
+    url: /cn/contact/
+  - title: English
+    key: language
+    url: /en/
 
-  - titles:
-      # @start locale config
-      en      : &EN       News
-      zh-Hans : &ZH_HANS  新闻
-      zh      : *ZH_HANS  
-      # @end locale config
-    url: /pages/news.html
+header-en:
+  - title: Home
+    url: /en/
+  - title: QA
+    key: qa-en
+    url: /qa_pages/en/vqa_datasets/
+  - title: News
+    url: /en/news/
+  - title: Docs
+    url: /docs/cn/tbd/ 
+  - title: About
+    url: /en/about/
+  - title: Contact
+    url: /en/contact/
+  - title: 中文
+    url: /
 
-  - titles:
-      # @start locale config
-      en      : &EN       QA
-      zh-Hans : &ZH_HANS  质量评价
-      zh      : *ZH_HANS  
-      # @end locale config
-    url: /pages/qa.html
+qa_pages-cn:
+  - title:      视频质量评价
+    children:
+      - title:  数据集
+        url:    /qa_pages/cn/vqa_datasets
+      - title:  全参考指标
+        url:    /qa_pages/cn/vqa_fr_metrics
+      - title:  无参考指标
+        url:    /qa_pages/cn/vqa_nr_metrics
+      - title:  评估基准
+        url:    /qa_pages/cn/vqa_benchmarks 
+  - title:      图像质量评价
+    children:   
+      - title:  数据集
+        url:    /qa_pages/cn/iqa_datasets
+      - title:  全参考指标
+        url:    /qa_pages/cn/iqa_fr_metrics
+      - title:  无参考指标
+        url:    /qa_pages/cn/iqa_nr_metrics
+      - title:  评估基准
+        url:    /qa_pages/cn/iqa_benchmarks
+  - title:      点云质量评价
+    children:   
+      - title:  数据集
+        url:    /qa_pages/cn/pcqa_datasets
+      - title:  全参考指标
+        url:    /qa_pages/cn/pcqa_fr_metrics
+      - title:  无参考指标
+        url:    /qa_pages/cn/pcqa_nr_metrics
+      - title:  评估基准
+        url:    /qa_pages/cn/pcqa_benchmarks
 
-  # - titles:
-  #     # @start locale config
-  #     en      : &EN       VQA
-  #     zh-Hans : &ZH_HANS  VQA
-  #     zh      : *ZH_HANS  
-  #     # @end locale config
-  #   url: /pages/vqa.html
-
-  # - titles:
-  #     # @start locale config
-  #     en      : &EN       PCQA
-  #     zh-Hans : &ZH_HANS  PCQA
-  #     zh      : *ZH_HANS  
-  #     # @end locale config
-  #   url: /pages/pcqa.html
-
-  # - titles:
-  #     # @start locale config
-  #     en      : &EN       IQA
-  #     zh-Hans : &ZH_HANS  IQA
-  #     zh      : *ZH_HANS  
-  #     # @end locale config
-  #   url: /pages/iqa.html
-
-  - titles:
-      # @start locale config
-      en      : &EN       News
-      zh-Hans : &ZH_HANS  新闻
-      zh      : *ZH_HANS  
-      # @end locale config
-    url: /pages/news.html
-    
-  - titles:
-      # @start locale config
-      en      : &EN       Docs
-      zh-Hans : &ZH_HANS  文档
-      zh      : *ZH_HANS  
-      # @end locale config
-    url: /pages/docs.html
-
-  - titles:
-      # @start locale config
-      en      : &EN       About
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS  
-      # @end locale config
-    url: /pages/about.html
-
-  - titles:
-      # @start locale config
-      en      : &EN       Contact
-      zh-Hans : &ZH_HANS  联系
-      zh      : *ZH_HANS  
-      # @end locale config
-    url: /pages/contact.html
-
-  - titles:
-      # @start locale config
-      en      : &EN       English
-      zh-Hans : &ZH_HANS  中文
-      zh      : *ZH_HANS  
-      # @end locale config
-    url: /pages/homepage.html
+qa_pages-en:
+  - title:      VQA
+    children:
+      - title:  Datasets
+        url:    /qa_pages/en/vqa_datasets
+      - title:  FR Metrics
+        url:    /qa_pages/en/vqa_fr_metrics
+      - title:  NR Metrics
+        url:    /qa_pages/en/vqa_nr_metrics
+      - title:  Benchmarks
+        url:    /qa_pages/en/vqa_benchmarks 
+  - title:      IQA
+    children:
+      - title:  Datasets
+        url:    /qa_pages/en/iqa_datasets
+      - title:  FR Metrics
+        url:    /qa_pages/en/iqa_fr_metrics
+      - title:  NR Metrics
+        url:    /qa_pages/en/iqa_nr_metrics
+      - title:  Benchmarks
+        url:    /qa_pages/en/iqa_benchmarks
+  - title:      PCQA
+    children:
+      - title:  Datasets
+        url:    /qa_pages/en/pcqa_datasets
+      - title:  FR Metrics
+        url:    /qa_pages/en/pcqa_fr_metrics
+      - title:  NR Metrics
+        url:    /qa_pages/en/pcqa_nr_metrics
+      - title:  Benchmarks
+        url:    /qa_pages/en/pcqa_benchmarks
