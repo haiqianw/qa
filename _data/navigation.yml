@@ -4,19 +4,19 @@ header:
     url: /
   - title: 质量评价
     key: qa-cn
-    url: /qa_pages/cn/vqa_datasets/
+    url: /qa_pages/cn/vqa_datasets
   - title: 新闻
     key: news
-    url: /cn/news/
-  - title: 文档
-    key: docs
-    url: /docs/cn/tbd/ 
+    url: /cn/news
+  # - title: 文档
+  #   key: docs
+  #   url: /docs/cn/tbd
   - title: 关于
     key: about
-    url: /cn/about/
+    url: /cn/about
   - title: 联系
     key: contact
-    url: /cn/contact/
+    url: /cn/contact
   - title: English
     key: language
     url: /en/
@@ -26,15 +26,15 @@ header-en:
     url: /en/
   - title: QA
     key: qa-en
-    url: /qa_pages/en/vqa_datasets/
+    url: /qa_pages/en/vqa_datasets
   - title: News
-    url: /en/news/
-  - title: Docs
-    url: /docs/cn/tbd/ 
+    url: /en/news
+  # - title: Docs
+  #   url: /docs/cn/tbd
   - title: About
-    url: /en/about/
+    url: /en/about
   - title: Contact
-    url: /en/contact/
+    url: /en/contact
   - title: 中文
     url: /
 

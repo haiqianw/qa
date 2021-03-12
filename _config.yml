@@ -36,7 +36,7 @@ timezone: 	Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : AVS-QA
+  name      : QA
   url       :
   avatar    : # path or url of avatar image (square)
   bio       : # I am an amazing person.
@@ -257,34 +257,34 @@ defaults:
       lang: zh
       show_edit_on_github: false
       show_date: false
-  ## docs
-  - scope:
-      path: "_docs/en"
-    values:
-      layout: article
-      nav_key: docs
-      sidebar:
-        nav: docs-en
-      license: false
-      aside:
-        toc: true
-      lang: en
-      show_edit_on_github: false
-      show_date: false
-  - scope:
-      path: "_docs/zh"
-    values:
-      layout: article
-      nav_key: docs
-      sidebar:
-        nav: docs-zh
-      license: false
-      aside:
-        toc: true
-      lang: zh
-      show_edit_on_github: false
-      show_date: false
-      # lightbox: true
+  # ## docs
+  # - scope:
+  #     path: "_docs/en"
+  #   values:
+  #     layout: article
+  #     nav_key: docs
+  #     sidebar:
+  #       nav: docs-en
+  #     license: false
+  #     aside:
+  #       toc: true
+  #     lang: en
+  #     show_edit_on_github: false
+  #     show_date: false
+  # - scope:
+  #     path: "_docs/zh"
+  #   values:
+  #     layout: article
+  #     nav_key: docs
+  #     sidebar:
+  #       nav: docs-zh
+  #     license: false
+  #     aside:
+  #       toc: true
+  #     lang: zh
+  #     show_edit_on_github: false
+  #     show_date: false
+  #     # lightbox: true
  
 
 
