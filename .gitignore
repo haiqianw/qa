@@ -21,9 +21,10 @@ node_modules/
 yarn.lock
 package-lock.json
 Gemfile.lock
+Gemfile.lock_ori
+framework.md
 
 _site/
 .jekyll-metadata
 .jekyll-cache/
 
-framework.md
