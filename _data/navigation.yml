@@ -43,61 +43,57 @@ qa_pages-cn:
     children:
       - title:  数据集
         url:    /qa_pages/cn/vqa_datasets
-      - title:  全参考指标
-        url:    /qa_pages/cn/vqa_fr_metrics
-      - title:  无参考指标
-        url:    /qa_pages/cn/vqa_nr_metrics
-      - title:  评估基准
-        url:    /qa_pages/cn/vqa_benchmarks 
+      - title:  全参考算法
+        url:    /qa_pages/cn/vqa_fr_methods
+      - title:  无参考算法
+        url:    /qa_pages/cn/vqa_nr_methods
   - title:      图像质量评价
     children:   
       - title:  数据集
         url:    /qa_pages/cn/iqa_datasets
-      - title:  全参考指标
-        url:    /qa_pages/cn/iqa_fr_metrics
-      - title:  无参考指标
-        url:    /qa_pages/cn/iqa_nr_metrics
-      - title:  评估基准
-        url:    /qa_pages/cn/iqa_benchmarks
+      - title:  全参考算法
+        url:    /qa_pages/cn/iqa_fr_methods
+      - title:  无参考算法
+        url:    /qa_pages/cn/iqa_nr_methods
   - title:      点云质量评价
     children:   
       - title:  数据集
         url:    /qa_pages/cn/pcqa_datasets
-      - title:  全参考指标
-        url:    /qa_pages/cn/pcqa_fr_metrics
-      - title:  无参考指标
-        url:    /qa_pages/cn/pcqa_nr_metrics
-      - title:  评估基准
-        url:    /qa_pages/cn/pcqa_benchmarks
+      - title:  全参考算法
+        url:    /qa_pages/cn/pcqa_fr_methods
+      - title:  无参考算法
+        url:    /qa_pages/cn/pcqa_nr_methods
+  - title:  评估基准
+    children:
+      - title: 评价指标
+        url:   /qa_pages/cn/evaluation
 
 qa_pages-en:
   - title:      VQA
     children:
       - title:  Datasets
         url:    /qa_pages/en/vqa_datasets
-      - title:  FR Metrics
-        url:    /qa_pages/en/vqa_fr_metrics
-      - title:  NR Metrics
-        url:    /qa_pages/en/vqa_nr_metrics
-      - title:  Benchmarks
-        url:    /qa_pages/en/vqa_benchmarks 
+      - title:  FR Methods
+        url:    /qa_pages/en/vqa_fr_methods
+      - title:  NR Methods
+        url:    /qa_pages/en/vqa_nr_methods
   - title:      IQA
     children:
       - title:  Datasets
         url:    /qa_pages/en/iqa_datasets
-      - title:  FR Metrics
-        url:    /qa_pages/en/iqa_fr_metrics
-      - title:  NR Metrics
-        url:    /qa_pages/en/iqa_nr_metrics
-      - title:  Benchmarks
-        url:    /qa_pages/en/iqa_benchmarks
+      - title:  FR Methods
+        url:    /qa_pages/en/iqa_fr_methods
+      - title:  NR Methods
+        url:    /qa_pages/en/iqa_nr_methods
   - title:      PCQA
     children:
       - title:  Datasets
         url:    /qa_pages/en/pcqa_datasets
-      - title:  FR Metrics
-        url:    /qa_pages/en/pcqa_fr_metrics
-      - title:  NR Metrics
-        url:    /qa_pages/en/pcqa_nr_metrics
-      - title:  Benchmarks
-        url:    /qa_pages/en/pcqa_benchmarks
+      - title:  FR Methods
+        url:    /qa_pages/en/pcqa_fr_methods
+      - title:  NR Methods
+        url:    /qa_pages/en/pcqa_nr_methods
+  - title:  Benchmarks
+    children:
+      - title: Evaluation Metrics
+        url:    /qa_pages/en/evaluation

@@ -20,9 +20,10 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : AVS质量评价平台
+title   : 质量评价平台
+title_en: Quality Assessment Website
 description: > # this means to ignore newlines until "Language & timezone"
-  为视频、图像、点云等质量相关研究提供数据集、评测基准和指南。
+  为视频、图像、点云等质量相关研究提供数据集、方法、评估基准等。
 
 
 ## => Language and Timezone
@@ -203,18 +204,22 @@ exclude:
   - /test
   - /vendor
 
-collections:
-  qa_pages:
-    output: true
-  docs:
-    output: true
+# collections:
+#   qa_pages:
+#     output: true
+#   other_pages:
+#     output: true
+#   docs:
+#     output: true
 
 defaults:
+  ## basic settings
   - scope:
       path: ""
       type: pages
     values:
       layout: article
+  ## other pages
   - scope:
       path: "other_pages/en"
       type: pages
@@ -227,7 +232,7 @@ defaults:
       lang: zh
   ## qa pages
   - scope:
-      path: "_qa_pages/en"
+      path: "qa_pages/en"
     values:
       layout: page
       nav_key: qa-en
@@ -240,7 +245,7 @@ defaults:
       show_edit_on_github: false
       show_date: false
   - scope:
-      path: "_qa_pages/cn"
+      path: "qa_pages/cn"
     values:
       layout: page
       nav_key: qa-cn
